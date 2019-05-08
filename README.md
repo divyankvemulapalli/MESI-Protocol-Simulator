@@ -1,2 +1,17 @@
-# MESI-Protocol-Simulator
-It is a sophisticated python application designed to simulate MESI cache protocol. I considered only one level of cache which is a write-back cache and tested its state transitions.
+*** READ ME ***
+
+Files included with this Project:
+1. Simulator.py
+
+Software required to run Simulator.py:
+1. Python 2.7 or above.
+
+Modules required to run Simulator.py:
+1. null.
+2. random.
+
+How to run Simulator.py:
+* Command: python Simulator.py
+* It's going to ask, ÒYou can the test the Simulator with 'N' random instructions, How many random instructions you want to execute?
+* Provide the N.
+* Now it's going to print the status of the Processor's cache and Shared memory after each instruction.
